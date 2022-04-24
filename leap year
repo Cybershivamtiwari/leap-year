@@ -1,0 +1,13 @@
+year =int(input("enter the year in the format of xxxx, eg:2993"))
+a=year%4
+b=year%400
+                
+if b==100 or b==200 or b==300:
+                print(year,"is not a leap year:")
+                
+elif a==0:
+                print(year,"is a leap year")
+else:
+                print(year,"is not a leap year")
+
+                
